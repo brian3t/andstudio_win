@@ -46,6 +46,7 @@
   <action id="Exit">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
+  <action id="ExternalJavaDoc" />
   <action id="FileChooser.ShowHiddens">
     <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
@@ -53,9 +54,16 @@
     <keyboard-shortcut first-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="f3" />
   </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="alt f7" />
+  </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="shift f2" />
   </action>
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="alt e" />
@@ -90,7 +98,6 @@
   </action>
   <action id="ShowUmlDiagramPopup" />
   <action id="Stop">
-    <keyboard-shortcut first-keystroke="ctrl f2" />
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="SwitchApply">
@@ -107,6 +114,10 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="shift ctrl f11" />
+    <keyboard-shortcut first-keystroke="ctrl f2" />
   </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />

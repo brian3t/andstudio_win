@@ -13,6 +13,7 @@
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
+  <action id="ContextHelp" />
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="Diff.ShowDiff" />
@@ -50,9 +51,14 @@
   <action id="GotoNextError" />
   <action id="Groovy.Shell.Execute" />
   <action id="KotlinShellExecute" />
+  <action id="Move" />
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
   <action id="ReplaceInPath" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
   <action id="ShelvedChanges.Rename">
@@ -61,7 +67,12 @@
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
-  <action id="Stop" />
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="f11" />
     <keyboard-shortcut first-keystroke="ctrl f2" />

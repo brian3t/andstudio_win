@@ -4,6 +4,8 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
   <action id="ChangesView.Diff" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
@@ -11,6 +13,8 @@
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
+  <action id="Debugger.EditArrayFilter" />
+  <action id="Debugger.EditCustomField" />
   <action id="Diff.ShowDiff" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Editor Redo">
@@ -35,9 +39,16 @@
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="GotoNextError" />
   <action id="Groovy.Shell.Execute" />
   <action id="KotlinShellExecute" />
   <action id="MoveLineDown" />
@@ -45,13 +56,23 @@
   <action id="ReplaceInPath" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="Stop" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="f11" />
+    <keyboard-shortcut first-keystroke="ctrl f2" />
   </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchy.BaseOnThisType" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="ViewSource" />
   <action id="XDebugger.CopyWatch" />
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
   <action id="openAssertEqualsDiff" />
 </keymap>

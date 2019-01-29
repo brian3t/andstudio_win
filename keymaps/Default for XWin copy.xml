@@ -35,6 +35,10 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="alt f8" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="ctrl h" />
@@ -49,6 +53,7 @@
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="GotoNextError" />
+  <action id="GotoSuperMethod" />
   <action id="Groovy.Shell.Execute" />
   <action id="KotlinShellExecute" />
   <action id="Move" />

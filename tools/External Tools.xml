@@ -1,5 +1,5 @@
 <toolSet name="External Tools">
-  <tool name="delete mwcog" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="delete mwcog" description="delete mwcog" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$USER_HOME$/Android/Sdk/platform-tools/adb" />
       <option name="PARAMETERS" value="shell pm uninstall com.mediabeef.mwcog" />

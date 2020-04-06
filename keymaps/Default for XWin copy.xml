@@ -7,6 +7,7 @@
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Edit" />
   <action id="ChangesView.Diff" />
+  <action id="ChooseRunConfiguration" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -104,7 +105,6 @@
     <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="Run">
-    <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
